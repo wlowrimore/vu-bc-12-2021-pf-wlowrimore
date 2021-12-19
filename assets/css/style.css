@@ -12,8 +12,6 @@ body {
 header {
   position: -webkit-sticky;
   position: sticky;
-  
-  
   padding: 20px 50px;
   background-color: #8db580;
   display: flex;
@@ -85,7 +83,33 @@ header h2 {
 header p {
   font-weight: bold;
   font-style: italic;
+  color: #fff
   
+}
+
+.bio-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 50px;
+  background-color: #404443;
+  
+}
+
+.bio-box h1 {
+  color: #8db580;
+  margin: 7px 7px;
+  border-right: 2px solid #8db580;
+  padding: 20px 20px;
+}
+
+
+
+
+.bio {
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(252 252 252);
+  justify-content: center;
 }
 
 
