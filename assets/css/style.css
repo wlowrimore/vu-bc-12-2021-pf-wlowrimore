@@ -12,19 +12,81 @@ body {
 header {
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
+  
+  
   padding: 20px 50px;
   background-color: #8db580;
   display: flex;
+  align-items: stretch;
   justify-content: space-between;
-  flext-wrap: wrap;
+  flex-wrap: wrap;
   z-index: 9999;
 }
 
 header h1 {
   font-weight: bold;
-  font-size: 36;
-  color: #7e8987;
-  margin: 0;
-  text-shadow: 0 0 10 rgba(0,0,0,0.5);
+  font-size: 36px;
+  color: #404443;
+  margin: 7px 7px;
+  text-shadow: 0 0 8px rgba(0,0,0,0.3);
+  
 }
+
+header a {
+  text-decoration: none;
+  color: #404443;
+}
+
+
+
+header nav {
+  margin-top: 7px;
+  margin-left: -10px;
+  margin-bottom: 16px;
+  
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+
+}
+
+header nav ul li {
+  margin-right: 1rem;
+}
+
+header nav ul li a {
+  padding: 5px 10px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 8px rgba(0,0,0,0.5);
+  
+}
+
+header nav ul li a:hover {
+  background: #7e8987;
+  color: #8db580;
+  border-radius: 15px;
+  text-shadow: none;
+  
+}
+
+header h2 {
+  color: #404443;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+
+header p {
+  font-weight: bold;
+  font-style: italic;
+  
+}
+
+
+  
