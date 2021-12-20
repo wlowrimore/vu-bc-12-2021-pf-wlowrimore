@@ -19,6 +19,7 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   z-index: 9999;
+  margin-bottom: 25px;
 }
 
 header h1 {
@@ -88,28 +89,48 @@ header p {
 }
 
 .bio-box {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  margin: 0 auto;
+  /* flex-wrap: wrap; */
+  /* justify-content: space-around; */
   padding: 20px 50px;
   background-color: #404443;
   
 }
 
-.bio-box h1 {
-  color: #8db580;
-  margin: 7px 7px;
-  border-right: 2px solid #8db580;
-  padding: 20px 20px;
+.flex-row {
+  display: flex;
 }
 
+.bio-box h1 {
+  font-size: 48px;
+  font-weight: lighter;
+  color: #8db580;
+  padding-right: 18px;
+  margin: 20px;
+  border-right: 2px solid #8db580;
+}
 
+.bio img {
+  width: 20%;
+  border: 1px solid #8db580;
+  border-radius: 10px;
+}
 
 
 .bio {
   display: flex;
+  padding: 25px;
+  line-height: 1.3;
+}
+
+.bio p {
+  display: flex;
   flex-wrap: wrap;
+  font-size: 22px;
   color: rgb(252 252 252);
-  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
 
 
