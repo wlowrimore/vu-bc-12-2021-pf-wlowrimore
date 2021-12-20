@@ -10,26 +10,28 @@
 <body>
   <header>
     <h1>William Lowrimore</h1>
-    <div>
-      <nav>
-      
-        <!-- Unordered list element -->
-        <ul>
-          <li>
-            <a href= "#about-me">About Me</a>
-          </li>
-          <li>
-            <a href= "#my-work">Applications</a>
-          </li>
-          <li>
-            <a href= "contact-me">Contact Me</a>
-          </li>
-        </ul>
-      </nav>
+      <div class= "flex-row">
+        <nav>
+          <!-- Unordered list element -->
+          <ul>
+            <li>
+              <a href= "#about-me">About Me</a>
+            </li>
+            <li>
+              <a href= "#my-work">Applications</a>
+            </li>
+            <li>
+              <a href= "contact-me">Contact Me</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    <div class= "header h2 p">      
       <h2>A Journey to Success</h2>
       <p>Developing the Mind of a Developer</p>
-      
     </div>
+      
+    
   </header>
 
   <!-- hero/jumbotron -->
@@ -41,13 +43,34 @@
     <div class= "flex-row">
       <h1 id= "about-me">About Me</h1>
       <article class= "bio">
-        <img src= "./assets/images/selfie.jpg">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam eligendi 
-          omnis rem molestias alias accusantium consequuntur esse ea similique laudantium 
-          fuga, repudiandae magnam minus velit et, officia dolore earum debitis?
-        </p>
+        <img src= "./assets/images/selfie.jpg"
+             alt= "William Lowrimore looking into the camera">
+          <p>My name is William Lowrimore.  Originally from Memphis, TN, I have spent a majority
+             of my professional life as an established musician.  I have toured and recorded with 
+             various artists.  On my down time I turned to instructing music theory to budding
+             musicians of all ages.  As my family tree is comprised of successful music artists
+             and computer software "techies", it was only a matter of time before I lept into a 
+             world of software development.  I recently transplanted my roots, just up the "Music 
+             Highway" to Nashville, TN.  Here in Nashville, I decided to take that leap and enroll 
+             in Vanderbilt University's Coding Bootcamp.  With 20+ years of experience in music 
+             theory mathematics, creative composition, and the ability to convey these teachings, 
+             I felt as though software development was the next stop on my journey.  I am currently
+             "deep diving" into HTML, CSS and Git as I work toward a Full Stack Developer Certification.
+             Next stop...JavaScript. And from there...THE SKY'S THE LIMIT! 
+          </p>
       </article>  
-      
+    </div>
+  </section>
+
+  <section class= "assign-box">
+    <div class= "flex-row">
+      <h1 id= "my-work">My Work</h1>
+      <article class= "run-buddy">
+        <a href= "https://wlowrimore.github.io/Run-Buddy/"
+        target= "_blank" 
+        rel= "noreferrer"><img src= "assets/images/run-buddy.jpg"
+        alt= "run-buddy poject website"></a>
+      </article>
     </div>
   </section>
 </body>
