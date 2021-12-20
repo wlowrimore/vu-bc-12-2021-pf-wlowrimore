@@ -14,7 +14,7 @@ body {
 header {
   position: -webkit-sticky;
   position: sticky;
-  padding: 20px 50px;
+  padding: 5px 50px;
   background-color: #8db580;
   display: flex;
   align-items: stretch;
@@ -32,6 +32,7 @@ header h1 {
   align-items: center;
   justify-content: center;
   text-shadow: 0 0 8px rgba(0,0,0,0.3);
+  /* padding-top: 15px; */
   
 }
 
@@ -45,20 +46,22 @@ header a {
 
 header nav {
   display: flex;
-  align-items: stretch;
+  justify-content: flex-end;
+  align-items: flex-start;
+  
   margin-top: 7px;
-  margin-left: -10px;
-  margin-bottom: 40px;
+  
+  /* margin-bottom: 40px; */
   
 }
 
 header nav ul {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
   list-style: none;
   padding-bottom: 0;
-
+  /* margin-bottom: 12px; */
 }
 
 header nav ul li {
@@ -66,7 +69,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  padding: 2px 10px;
+  padding: 2px;
   font-weight: lighter;
   font-size: 18px;
   text-shadow: 0 0 8px rgba(0,0,0,0.3);
@@ -84,27 +87,22 @@ header nav ul li a:hover {
 
 
 header h2 {
-  background-color: #404443;
-  color: rgb(252 252 252);
+  color: #404443;
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 40px;
-  margin-bottom: 0px;
-  padding: 4px 2px;
-  border-top: 1px solid #7e8987;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  align-items: flex-end;
 }
 
 
 header p {
   font-weight: bold;
   font-style: italic;
-  background-color: #404443;
   color: rgb(252 252 252);
-  margin-bottom: -20px;
-  padding: 0 10px 5px 3px;
   
+  
+}
+.sub-header {
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* ABOUT ME SECTION */
@@ -116,8 +114,10 @@ header p {
   margin-bottom: 25px;
 }
 
+
 .flex-row {
   display: flex;
+  justify-content: flex-end;
 }
 
 .bio-box h1 {
