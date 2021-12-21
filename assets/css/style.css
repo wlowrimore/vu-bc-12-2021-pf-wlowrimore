@@ -201,7 +201,7 @@ figure {
 
 figure h2 {
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-end;
   display: flex;
   flex-wrap: wrap;
   color: rgb(252 252 252);
@@ -229,11 +229,63 @@ figure h2 {
   align-items: center;
   display: flex;
   width: auto;
-  height: 505px;
+  height: 255px;
   border: 2px solid #8db580;
   border-radius: 10px;
   padding: 4px;
   margin: auto;
+}
+
+
+footer {
+padding: 5px 50px;
+background-color: #8db580;
+display: flex;
+align-items: stretch;
+justify-content: space-between;
+flex-wrap: wrap;
+z-index: 9999;
+margin-bottom: 14px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  
+  margin-top: 7px;
+  
+  /* margin-bottom: 40px; */
+  
+}
+
+footer nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding-bottom: 0;
+  /* margin-bottom: 12px; */
+}
+
+footer nav ul li {
+  margin-right: 1rem;
+}
+
+footer nav ul li a {
+  padding: 2px;
+  font-weight: lighter;
+  font-size: 18px;
+  text-shadow: 0 0 8px rgba(0,0,0,0.3);
+  
+}
+
+footer nav ul li a:hover {
+  background: #7e8987;
+  color: #8db580;
+  border-radius: 15px;
+  text-shadow: none;
+  
 }
 
 
