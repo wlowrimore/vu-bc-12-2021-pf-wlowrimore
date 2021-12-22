@@ -5,7 +5,7 @@
 }
 
 body {
-  color: #7e8987;
+  color: #404443;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -112,7 +112,7 @@ header p {
 .bio-box {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 50px;
+  margin: 0 auto;
   padding: 20px 50px;
   background-color: #404443;
   margin-bottom: 25px;
@@ -121,6 +121,8 @@ header p {
 
 .flex-row {
   display: flex;
+  
+  
   
 }
 
@@ -167,75 +169,83 @@ header p {
 
 .assign-box {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  padding: 20px 50px;
+  justify-content: space-around;
+  padding: 20px;
   background-color: #404443;
-  margin-bottom: 25px;
+  
 }
 
 .assign-box h1 {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   font-size: 38px;
   font-weight: lighter;
   color: #8db580;
   padding-right: 18px;
-  margin: 20px;
   border-right: 2px solid #8db580;
   text-shadow: 0 0 8 rgba(0,0,0,0.5);
 }
 
-  
 
-
-figure {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin: 50px;
-}
-
-
-figure h2 {
-  justify-content: space-evenly;
-  align-items: flex-end;
-  display: flex;
-  flex-wrap: wrap;
-  color: rgb(252 252 252);
-  font-weight: lighter;
-  margin: 25px 50px;
-  border-bottom: 2px solid rgb(252 252 252);
-  padding: 4px;
-}
 
 .run-buddy {
-  justify-content: space-around;
-  align-items: center;
-  padding-left: 25px;
   display: flex;
-  width: 250px;
-  height: auto;
-  border: 2px solid rgb(252 252 252);
-  border-radius: 10px;
-  padding: 4px;
-  /* margin: auto; */
+  flex-wrap: wrap;
+  justify-content: center;
+  
 }
 
-.horiseon{
-  justify-content: space-between;
-  align-items: center;
+.run-buddy h2 {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  color: rgb(252 252 252);
+  font-weight: lighter;
+  padding: 4px;
+  border-bottom: 2px solid rgb(252 252 252);
+}
+
+.run-buddy img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: auto;
+  margin: 20px 0;
+  padding: 0;
+  border: 2px solid #8db580;
+  border-radius: 15px;
+}
+
+.horiseon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.horiseon h2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  color: rgb(252 252 252);
+  font-weight: lighter;
+  border-bottom: 2px solid rgb(252 252 252);
+}
+
+.horiseon img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: auto;
   height: 255px;
   border: 2px solid #8db580;
   border-radius: 10px;
-  padding: 4px;
-  margin: auto;
+  margin: 15px;
 }
 
+/* Contact Information */
 
 footer {
 padding: 5px 50px;
