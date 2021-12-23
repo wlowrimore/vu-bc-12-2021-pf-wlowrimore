@@ -110,8 +110,8 @@ header p {
 /* ABOUT ME SECTION */
 
 .bio-box {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   margin: 0 auto;
   padding: 20px 50px;
   background-color: #404443;
@@ -127,9 +127,9 @@ header p {
 }
 
 .bio-box h1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
   font-size: 38px;
   font-weight: lighter;
   color: #8db580;
@@ -140,8 +140,8 @@ header p {
 }
 
 .bio img {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   width: 300px;
   height: 300px;
   border: 1px solid #8db580;
@@ -157,8 +157,8 @@ header p {
 }
 
 .bio p {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
   font-size: 16px;
   color: rgb(252 252 252);
   align-items: center;
@@ -169,47 +169,33 @@ header p {
 
 .assign-box {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 20px;
   background-color: #404443;
   
 }
 
+
 .assign-box h1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   font-size: 38px;
   font-weight: lighter;
   color: #8db580;
   padding-right: 18px;
+  margin: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
   border-right: 2px solid #8db580;
   text-shadow: 0 0 8 rgba(0,0,0,0.5);
 }
 
-
-
-.run-buddy {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  
-}
-
-.run-buddy h2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0;
+.assign-box h2 {
+  text-align: center;
+  margin-right: 200px;
   color: rgb(252 252 252);
   font-weight: lighter;
-  padding: 4px;
-  border-bottom: 2px solid rgb(252 252 252);
+  /* padding: 4px; */
 }
-
 .run-buddy img {
-  display: flex;
-  flex-wrap: wrap;
   width: 200px;
   height: auto;
   margin: 20px 0;
@@ -217,6 +203,21 @@ header p {
   border: 2px solid #8db580;
   border-radius: 15px;
 }
+
+.horiseon img{
+  width: 205px;
+  height: auto;
+  margin-top: 20px;
+  border: 2px solid #8db580;
+  border-radius: 15px;
+  margin-right: 200px;
+}
+
+
+/* 
+
+
+
 
 .horiseon {
   display: flex;
@@ -234,16 +235,8 @@ header p {
   border-bottom: 2px solid rgb(252 252 252);
 }
 
-.horiseon img{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: auto;
-  height: 255px;
-  border: 2px solid #8db580;
-  border-radius: 10px;
-  margin: 15px;
-}
+
+
 
 /* Contact Information */
 
