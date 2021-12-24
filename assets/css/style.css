@@ -115,7 +115,7 @@ header p {
   margin: 0 auto;
   padding: 20px 50px;
   background-color: #404443;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 
 
@@ -172,6 +172,7 @@ header p {
   justify-content: space-between;
   padding: 20px;
   background-color: #404443;
+  margin-bottom: 15px;
   
 }
 
@@ -179,6 +180,7 @@ header p {
 .assign-box h1 {
   font-size: 38px;
   font-weight: lighter;
+  max-width: 132px;
   color: #8db580;
   padding-right: 18px;
   margin: 20px;
@@ -244,22 +246,40 @@ footer {
 padding: 5px 50px;
 background-color: #8db580;
 display: flex;
-align-items: stretch;
+align-items: center;;
 justify-content: space-between;
 flex-wrap: wrap;
 z-index: 9999;
 margin-bottom: 14px;
 }
 
+footer h1 {
+  font-weight: normal;
+  font-size: 36px;
+  color: #404443;
+  margin: 7px 7px;
+  align-items: center;
+  justify-content: flex-start;
+  
+  text-shadow: 0 0 8px rgba(0,0,0,0.3);
+
+}
+
 footer nav {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
+  justify-content: center;
   
   margin-top: 7px;
   
   /* margin-bottom: 40px; */
   
+}
+
+footer nav p {
+  font-size: 18px;
+  margin-right: 10px;
+  border-right: 2px solid #404443;
+  padding-right: 4px;
 }
 
 footer nav ul {
@@ -273,19 +293,26 @@ footer nav ul {
 
 footer nav ul li {
   margin-right: 1rem;
+  color: #404443;
 }
 
 footer nav ul li a {
   padding: 2px;
   font-weight: lighter;
   font-size: 18px;
+  color: #404443;
   text-shadow: 0 0 8px rgba(0,0,0,0.3);
+  text-decoration: none;
+  border-right: 2px solid #404443;
+  padding-right: 4px;
+  margin-left: 4px;
   
 }
 
 footer nav ul li a:hover {
   background: #7e8987;
-  color: #8db580;
+  color: rgb(252 252 252);
+  border: 2px solid #404443;
   border-radius: 15px;
   text-shadow: none;
   
