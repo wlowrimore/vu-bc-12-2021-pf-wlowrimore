@@ -12,54 +12,48 @@ body {
 /* HEADER SECTION */
 
 header {
-  position: -webkit-sticky;
-  position: sticky;
-  padding: 5px 50px;
-  background-color: #8db580;
   display: flex;
-  align-items: stretch;
-  justify-content: space-between;
   flex-wrap: wrap;
-  z-index: 9999;
-  margin-bottom: 14px;
+  justify-content: space-between;
+  background-color: #8db580;
+  padding: 20px 50px;
+  margin-bottom: 15px;
+}
+
+/* .header-box { */
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 
 
 header h1 {
-  font-weight: bold;
-  font-size: 36px;
+  font-weight: normal;
+  font-size: 38px;
   color: #404443;
   margin: 7px 7px;
   align-items: center;
   justify-content: center;
   text-shadow: 0 0 8px rgba(0,0,0,0.3);
-  /* padding-top: 15px; */
+  padding-top: 15px;
   
 }
-
-
-
-header a {
-  text-decoration: none;
-  color: #404443;
-}
-
 
 header nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   align-items: flex-start;
-  
-  margin-top: 7px;
-  
-  /* margin-bottom: 40px; */
+  flex: 3 0%;
+  margin: 0;
+  /* margin-left: 50%; */
   
 }
 
 header nav ul {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   list-style: none;
   padding-bottom: 0;
@@ -68,12 +62,19 @@ header nav ul {
 
 header nav ul li {
   margin-right: 1rem;
+  justify-content: center;
 }
 
 header nav ul li a {
+  justify-content: center;
   padding: 2px;
+  color: #404443;
   font-weight: lighter;
   font-size: 18px;
+  text-decoration: none;
+  border-right: 2px solid #404443;
+  padding-right: 4px;
+  margin-left: 4px;
   text-shadow: 0 0 8px rgba(0,0,0,0.3);
   
 }
@@ -86,26 +87,37 @@ header nav ul li a:hover {
   
 }
 
-
-
-header h2 {
-  color: #404443;
+.header-right {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: flex-end;
+  max-width: 700px;
+  margin-left: 75%;
+  padding-top: 25px;
+  
+  
+}
+
+.header-right h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #404443;
+  font-weight: bold;
+  
 }
 
 
-header p {
-  font-weight: bold;
+.header-right p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: normal;
   font-style: italic;
   color: rgb(252 252 252);
-  
-  
 }
-.sub-header {
-  display: flex;
-  justify-content: flex-end;
-}
+
 
 /* ABOUT ME SECTION */
 
@@ -116,6 +128,15 @@ header p {
   padding: 20px 50px;
   background-color: #404443;
   margin-bottom: 15px;
+
+
+  
+  
+  
+
+
+
+
 }
 
 
@@ -216,29 +237,6 @@ header p {
 }
 
 
-/* 
-
-
-
-
-.horiseon {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.horiseon h2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0;
-  color: rgb(252 252 252);
-  font-weight: lighter;
-  border-bottom: 2px solid rgb(252 252 252);
-}
-
-
-
 
 /* Contact Information */
 
@@ -277,6 +275,7 @@ footer nav {
 
 footer nav p {
   font-size: 18px;
+  font-weight: lighter;
   margin-right: 10px;
   border-right: 2px solid #404443;
   padding-right: 4px;
