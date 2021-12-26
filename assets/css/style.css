@@ -12,12 +12,15 @@ body {
 /* HEADER SECTION */
 
 header {
+  position: sticky;
+  top: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #8db580;
   padding: 20px 50px;
   margin-bottom: 15px;
+  border-bottom: 2px solid #404443;
 }
 
 /* .header-box { */
@@ -82,6 +85,7 @@ header nav ul li a {
 header nav ul li a:hover {
   background: #7e8987;
   color: #8db580;
+  border: 2px solid #404443;
   border-radius: 15px;
   text-shadow: none;
   
@@ -190,12 +194,13 @@ header nav ul li a:hover {
 
 .assign-box {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 20px;
   background-color: #404443;
   margin-bottom: 15px;
   
 }
+
 
 
 .assign-box h1 {
@@ -204,51 +209,96 @@ header nav ul li a:hover {
   max-width: 132px;
   color: #8db580;
   padding-right: 18px;
-  margin: 20px;
-  margin-right: 50px;
-  margin-left: 50px;
+  margin: 20px 50px;
+  /* margin-right: 50px; */
+  /* margin-left: 50px; */
   border-right: 2px solid #8db580;
   text-shadow: 0 0 8 rgba(0,0,0,0.5);
 }
 
 .assign-box h2 {
-  text-align: center;
-  margin-right: 200px;
+  display: flex;
+  justify-content: center;
+  /* margin-right: 375px; */
   color: rgb(252 252 252);
   font-weight: lighter;
   /* padding: 4px; */
 }
+
+.assign-box-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  margin: 20px 100px;
+
+}
+
 .run-buddy img {
   width: 200px;
   height: auto;
-  margin: 20px 0;
+  margin: 20px 100px 0 100px;
   padding: 0;
   border: 2px solid #8db580;
   border-radius: 15px;
 }
 
 .horiseon img{
-  width: 205px;
+  width: 170px;
   height: auto;
-  margin-top: 20px;
+  margin: 20px 100px 0 100px;
+  padding: 0;
   border: 2px solid #8db580;
   border-radius: 15px;
-  margin-right: 200px;
+  /* margin-right: 200px; */
 }
+
+.assign-box-url {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  margin: 20px;
+  border: 2px solid rgb(252 252 252);
+  border-radius: 15px;
+}
+
+.assign-box-url h3 {
+  color: rgb(252 252 252);
+  margin: 20px 20px 10px 20px;
+  
+}
+
+
+.assign-box-url a {
+  text-decoration: none;
+  color: #8db580;
+  font-size: 16px;
+  /* line-height: 1.5; */
+  margin: 0px 20px 20px  20px; 
+}
+
+
+
+/* .horiseon a {
+  text-decoration: none;
+  color: #8db580;
+  font-size: 16px;
+  max-width: 100px;
+} */
 
 
 
 /* Contact Information */
 
 footer {
-padding: 5px 50px;
-background-color: #8db580;
-display: flex;
-align-items: center;;
-justify-content: space-between;
-flex-wrap: wrap;
-z-index: 9999;
-margin-bottom: 14px;
+  padding: 5px 50px;
+  background-color: #8db580;
+  display: flex;
+  align-items: center;;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
 }
 
 footer h1 {
