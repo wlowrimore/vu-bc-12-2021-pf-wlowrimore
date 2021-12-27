@@ -180,6 +180,7 @@ header nav ul li a:hover {
   justify-content: center;
   color: var(--off-white);
   font-weight: lighter;
+  padding-top: 20px;
 }
 
 .assign-box-images {
@@ -312,70 +313,118 @@ footer nav ul li a:hover {
   text-shadow: none;
 }
 
-/* mobile device screens */
+/* mobile device screens (980px) */
+
 @media only screen and (max-device-width : 980px) {
   body {
     width: 100%;
   }
   
   header {
-    width: 100%;
+    display:flex;
+    padding-bottom: 0;
     justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
+    position: relative;
+    margin-bottom:auto;
   }
 
   header h1 {
     width: 100%;
-    flex: 0 100%;
+    /* flex: 0 100%; */
     text-align: center;
-    margin-bottom: 20px;
+    
   }
 
   header nav {
     width: 100%;
-    justify-content: center;
+    text-align:center;
+    margin-top: 5px;
+    margin-right: 50px;
   }
 
   header nav ul {
+    position: reslative;
     width: 100%;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-right: 100px;
+    padding-left: 153px;
+  }
+
+  header nav ul li a{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 5px;
+    padding: 0;
+    width: 100%;
   }
 
   .header-right {
-    /* display: flex;
-    flex-wrap: wrap; */
+    display: flex;
+    padding: 0;
     width: 100%;
-    margin-left: -700px;
-    margin-top: 20px;
+    margin-right: 660px;
+    margin-bottom: 15px;
+    justify-content: center;
   }
 
   .header-right h2 {
-    /* display: flex;
-    flex-wrap: wrap; */
-    width: 100%;
+    position: relative;
+    width: max-content;
     justify-content: center;
-    flex: 0 100%;
+    padding: 0;
+    margin-top: 0;    
   }
 
   .header-right p {
+    display: flex;;
     width: 100%;
     justify-content: center;
   }
 
   .bio-box {
-   width: 100%;
-   display: flex;
-   flex-wrap: wrap;
-  }
-
-
-  .bio-box img {
+    display: flex;
+    flex-wrap: wrap; 
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+   }
+
+   .bio-box h1 {
+     padding-right: 20px;
+   }
+ 
+ 
+   .bio-box img {
+     width: auto;
+     justify-content: flex-start;;
+     margin-bottom: 20px;
+     margin-right: 450px;
+     margin-left: 0;  
+   }
+ 
+   .bio {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 25px;
+     line-height: 1.3;
+   }
+ 
+   .bio p {
+     font-size: 16px;
+     color: var(--off-white);
+     align-items: flex-end;
+     justify-content: flex-start;
+     padding: 0
+   }
+
+   .assign-box {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: var(--dark-gray);
+    margin-bottom: 0;
   }
 
   .assign-box-images {
@@ -388,6 +437,10 @@ footer nav ul li a:hover {
     padding: none;
   }
 
+  .assign-box h2 {
+    padding-top: 20px;
+  }
+
   .bio {
     width: 100%;
     justify-content: center;
@@ -398,6 +451,7 @@ footer nav ul li a:hover {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
     
   }
 
@@ -414,15 +468,91 @@ footer nav ul li a:hover {
   footer p {
     justify-content: center;
   }
-/* iPads (portrait and landscape) -----------
-@media only screen and (max-device-width : 768px) {
+}
 
+ /* mobile device screens (768) */
+
+@media only screen and (max-device-width : 768px) {
+  body {
+    width: 100%;
+  }
+  
+  header {
+    display:flex;
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+    margin-bottom:auto;
+  }
+
+  .header-right h2 {
+    position: relative;
+    width: max-content;
+    justify-content: center;
+    margin-left: 162px;
+    margin-top: 0;    
+  }
+
+  .header-right p {
+    display: flex;;
+    width: 100%;
+    margin-left: 162px;
+    justify-content: center;
+  }
+
+  /* .bio-box {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+    flex: 0 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+   } */
+
+  
+
+  .bio-box h1 {
+    padding: 0;
+    font-weight: lighter;
+    
+    
+  }
+
+
+  .bio-box img {
+    margin: 0;
+    justify-content: flex-start;  
+    margin-right: 70px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  .bio {
+    flex: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* padding: 25px; */
+    line-height: 1.3;
+  }
+
+  .bio p {
+    
+    font-size: 18px;
+    width: 100%;
+    color: var(--off-white);
+    justify-content: flex-start;
+  
+
+    
+  }
 }
 
 /* laptops and desktops ------------ */
 /* @media only screen and (max-device-width : 575px)
 
-/* } */ 
+/* } 
 
 
 
