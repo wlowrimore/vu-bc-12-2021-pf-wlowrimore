@@ -216,6 +216,14 @@ header nav ul li a:hover {
   margin-bottom: 18px;
 }
 
+.once-upon img {
+  width: 78%;
+  margin: 20px 0 0 100px;
+  padding: 0;
+  border: 2px solid var(--sage);
+  border-radius: 15px;
+}
+
 .assign-box-url h3 {
   display: flex;
   flex-wrap: wrap;
@@ -554,7 +562,7 @@ footer nav ul li a:hover {
 
 /* mobile device screen 575px */
 
-@media only screen and (max-device-width : 575px) {
+@media only screen and (max-device-width : 225px) {
 
   .flex-row {
     display: flex;
@@ -669,6 +677,9 @@ footer nav ul li a:hover {
   }
 
   .horiseon img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 170px;
     height: auto;
     margin: 40px 0 100px 40px;
@@ -683,6 +694,9 @@ footer nav ul li a:hover {
   }
 
   .run-buddy img {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
     width: 200px;
     height: auto;
     margin: 20px 30px 0 20px;
@@ -692,9 +706,23 @@ footer nav ul li a:hover {
   }
   
   .horiseon img{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
     width: 170px;
     height: auto;
     margin: 40px 0 100px 40px;
+    padding: 0;
+    border: 2px solid var(--sage);
+    border-radius: 15px;
+  }
+
+  .once-upon img {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    width: 78%;
+    margin: 20px 0 0 100px;
     padding: 0;
     border: 2px solid var(--sage);
     border-radius: 15px;
